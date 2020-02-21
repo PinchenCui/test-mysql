@@ -1,0 +1,12 @@
+use db;
+CREATE TABLE QFELv (id smallint unsigned not null auto_increment, name varchar(32) not null, pwd varchar(32) not null, constraint pk_example primary key (id));
+SELECT * FROM example  WHERE name="kPdwByqB";
+INSERT INTO QFELv (id,name,pwd) VALUES (null, 'TvQlzLseWKS94SExjr0MZxRefLDa9', '75362JFICfskXDBqYydxyBTxfR');
+INSERT INTO QFELv (id,name,pwd) VALUES (null, 'K8MG', 'maPYntPeVL2cH6QgJmCp2QH4lw');
+INSERT INTO QFELv (id,name,pwd) VALUES (null, 'Qm7pVbu8lXHZjz', 'XMupSfhzoZkBQEr');
+SELECT * FROM example  WHERE name="rightnow2019";
+SELECT * FROM example  WHERE name="S";
+SELECT * FROM QFELv;
+SELECT * FROM QFELv  WHERE id=1;
+SELECT table_name FROM information_schema.tables WHERE table_schema="db";
+SELECT * FROM QFELv  WHERE id=3;

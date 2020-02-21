@@ -1,0 +1,14 @@
+use db;
+CREATE TABLE VnihD (id smallint unsigned not null auto_increment, name varchar(32) not null, pwd varchar(32) not null, constraint pk_example primary key (id));
+SELECT * FROM example  WHERE name="3";
+SELECT * FROM example  WHERE id=4;
+SELECT * FROM example  WHERE name="yuhateme";
+SELECT * FROM example  WHERE name="";
+SELECT * FROM example  WHERE id=17;
+INSERT INTO VnihD (id,name,pwd) VALUES (null, 'aM', 'C8VkqvQm4B7ec');
+SELECT * FROM example  WHERE name="xrayfighter";
+SELECT * FROM example  WHERE name="restinpeace";
+SELECT * FROM VnihD;
+SELECT * FROM VnihD  WHERE id=0;
+SELECT * FROM VnihD  WHERE id=1;
+SELECT table_name FROM information_schema.tables WHERE table_schema="db";

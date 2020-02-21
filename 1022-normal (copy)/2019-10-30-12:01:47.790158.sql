@@ -1,0 +1,18 @@
+use db;
+CREATE TABLE RTkHE (id smallint unsigned not null auto_increment, name varchar(32) not null, pwd varchar(32) not null, constraint pk_example primary key (id));
+SELECT * FROM example  WHERE name="2kB5t7Usq7oPF2hCfzSfMH";
+SELECT table_name FROM information_schema.tables WHERE table_schema="db";
+INSERT INTO RTkHE (id,name,pwd) VALUES (null, 'jSRlemzdy4', 'NLjHCX3Xs11qd1rnvp3J8CfF6U');
+SELECT * FROM example  WHERE name="RTIJzblcucaozV5kn";
+INSERT INTO RTkHE (id,name,pwd) VALUES (null, 'FBd1Z', 'jibUkDRrdCaonaRv');
+INSERT INTO RTkHE (id,name,pwd) VALUES (null, 'D0bd7WrhsI8SR0EB4', 'ryV8KcSH3fjv3WCR41mGaIv5CEs');
+SELECT * FROM example  WHERE name="wy5zMNoj4BF1aH8UwbXKVj";
+INSERT INTO RTkHE (id,name,pwd) VALUES (null, 'IrfQSYaRi4eDUJ', 'xXSKoLzxdhGlx');
+SELECT * FROM RTkHE;
+INSERT INTO RTkHE (id,name,pwd) VALUES (null, 'vIzcia', '84ezW6A0BEQ0fIWBlYrJEfZRFT');
+SELECT * FROM example  WHERE id=2;
+SELECT * FROM example  WHERE name="Qy5";
+SELECT * FROM RTkHE  WHERE id=2;
+SELECT * FROM RTkHE  WHERE name="oxhi4andjHQMaTxz";
+SELECT * FROM RTkHE  WHERE name="ELly3xtVJs";
+SELECT * FROM RTkHE  WHERE name="HcrRhyyHuEt44jglhmhaGutFd";

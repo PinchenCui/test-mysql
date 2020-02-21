@@ -1,0 +1,15 @@
+use db;
+CREATE TABLE iWmdB (id smallint unsigned not null auto_increment, name varchar(32) not null, pwd varchar(32) not null, constraint pk_example primary key (id));
+INSERT INTO iWmdB (id,name,pwd) VALUES (null, 'gjXcaKqhxexQ5BXqMu2P6y89HP', 'MtFmoXJx19yZLIdkYMfKv4ZJ74A3N');
+INSERT INTO iWmdB (id,name,pwd) VALUES (null, 'r9o81R3zbmrH', 'V1dBa2Yf');
+SELECT * FROM example  WHERE name="letsparty";
+INSERT INTO iWmdB (id,name,pwd) VALUES (null, 'leYmuojw5Tk', 'QC6rc4e');
+SELECT table_name FROM information_schema.tables WHERE table_schema="db";
+SELECT * FROM iWmdB  WHERE name="YbwE2BT55L3";
+SELECT * FROM iWmdB  WHERE id=1;
+SELECT * FROM iWmdB  WHERE id=0;
+SELECT * FROM iWmdB  WHERE id=1;
+SELECT * FROM iWmdB  WHERE name="gFH";
+SELECT * FROM iWmdB  WHERE name="h9JHVuK1zFrK7OD9nnlI9dAC";
+SELECT * FROM iWmdB  WHERE id=3;
+SELECT * FROM iWmdB;

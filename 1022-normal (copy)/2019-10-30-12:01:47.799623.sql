@@ -1,0 +1,14 @@
+use db;
+CREATE TABLE SzodV (id smallint unsigned not null auto_increment, name varchar(32) not null, pwd varchar(32) not null, constraint pk_example primary key (id));
+SELECT * FROM example  WHERE name="orthogonal";
+INSERT INTO SzodV (id,name,pwd) VALUES (null, '', 'mknbPyWnPW3YE53');
+SELECT * FROM SzodV;
+SELECT table_name FROM information_schema.tables WHERE table_schema="db";
+SELECT * FROM example  WHERE id=13;
+SELECT * FROM example  WHERE id=3;
+SELECT * FROM example  WHERE name="QxOMTjWREcB4lhCWC00kl";
+SELECT * FROM example  WHERE name="LAAC";
+SELECT * FROM example  WHERE name="ue01sJWTK1Di3";
+SELECT * FROM example  WHERE name="1eU2aYF2h0mRONnZvKi8nMlgg63Pr";
+SELECT * FROM example  WHERE id=4;
+SELECT * FROM SzodV  WHERE name="qgRoxdkPw2neFjDikPVfvkAFwQ";

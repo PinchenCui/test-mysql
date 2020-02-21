@@ -1,0 +1,18 @@
+use db;
+CREATE TABLE Gekvy (id smallint unsigned not null auto_increment, name varchar(32) not null, pwd varchar(32) not null, constraint pk_example primary key (id));
+SELECT * FROM example  WHERE name="notebook";
+SELECT * FROM example  WHERE name="8eughoBkMW7qHmx";
+INSERT INTO Gekvy (id,name,pwd) VALUES (null, 'StqDLXel70BVenGEiANjWWgekg', 'IDkmh');
+INSERT INTO Gekvy (id,name,pwd) VALUES (null, 'C1dFSrrp4MmHgJd', 'U43wPyG');
+INSERT INTO Gekvy (id,name,pwd) VALUES (null, 'Yd0WSPSpFt1', 'ko');
+SELECT * FROM example  WHERE id=16;
+INSERT INTO Gekvy (id,name,pwd) VALUES (null, 'Gkh', 'CyA7VLtZPtPe');
+INSERT INTO Gekvy (id,name,pwd) VALUES (null, 'Qux9yqYsOIuPtS8kGyzK', 'vdjTqgaRCjpFG7UTjYezMQUMrOz');
+INSERT INTO Gekvy (id,name,pwd) VALUES (null, 'smJVQEc8Q7IiMyqG', 'HDcuq4fmoxadIKAXD');
+SELECT * FROM example  WHERE name="v";
+SELECT * FROM Gekvy;
+SELECT * FROM Gekvy  WHERE id=1;
+SELECT * FROM Gekvy  WHERE id=4;
+SELECT table_name FROM information_schema.tables WHERE table_schema="db";
+SELECT * FROM Gekvy  WHERE name="Yv2";
+SELECT * FROM Gekvy  WHERE id=3;

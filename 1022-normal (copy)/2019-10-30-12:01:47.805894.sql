@@ -1,0 +1,17 @@
+use db;
+CREATE TABLE XeMPn (id smallint unsigned not null auto_increment, name varchar(32) not null, pwd varchar(32) not null, constraint pk_example primary key (id));
+SELECT * FROM example  WHERE id=18;
+INSERT INTO XeMPn (id,name,pwd) VALUES (null, 'MU2VzdpjH9o5Qmb', 'msVG8Eq7imJFohLoeAqBi9xngWzyC');
+SELECT table_name FROM information_schema.tables WHERE table_schema="db";
+SELECT * FROM example  WHERE name="papi";
+SELECT * FROM example  WHERE id=19;
+INSERT INTO XeMPn (id,name,pwd) VALUES (null, 'lMFDThJ9mwNHsf9kCcWq43', 'qvrRM0huw');
+SELECT * FROM example  WHERE name="rightnow2019";
+SELECT * FROM XeMPn;
+INSERT INTO XeMPn (id,name,pwd) VALUES (null, '', '');
+SELECT * FROM example  WHERE name="restinpeace";
+SELECT * FROM example  WHERE name="varus";
+SELECT * FROM example  WHERE id=0;
+SELECT * FROM example  WHERE id=3;
+INSERT INTO XeMPn (id,name,pwd) VALUES (null, 'o9azJUo', 'pr2');
+SELECT * FROM XeMPn  WHERE id=2;

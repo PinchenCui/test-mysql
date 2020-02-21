@@ -1,0 +1,17 @@
+use db;
+CREATE TABLE vJopK (id smallint unsigned not null auto_increment, name varchar(32) not null, pwd varchar(32) not null, constraint pk_example primary key (id));
+INSERT INTO vJopK (id,name,pwd) VALUES (null, 'CpaPmhuWEtEAEWZ', 'BrNzNComqiCjYuZX3rlnbr2zSkG');
+INSERT INTO vJopK (id,name,pwd) VALUES (null, '3TjQCPJztvdIsK', 'EiLq3RIhSyM43Da8NQmyyjn5');
+INSERT INTO vJopK (id,name,pwd) VALUES (null, 'nZYfJE61D7cr7b', '7pmACr');
+SELECT * FROM example  WHERE name="eCZA4Tq98";
+INSERT INTO vJopK (id,name,pwd) VALUES (null, 'YIySH2DmnYlYod0JC1lcRC90', '9QTMgRmJRk');
+SELECT * FROM example  WHERE name="neglecthim";
+INSERT INTO vJopK (id,name,pwd) VALUES (null, '1updCV4GmOiEUyyDX', 'NAvhyyu1Qudb8jf9g23rV4w');
+SELECT * FROM example  WHERE name="zookeeper001";
+SELECT * FROM example  WHERE name="singular";
+INSERT INTO vJopK (id,name,pwd) VALUES (null, 'r6Miu9KUOxkM4', 'zCxKbMFJzyaEMEi94AKhK09H');
+INSERT INTO vJopK (id,name,pwd) VALUES (null, 'YhVG', 'tYjhiLmkpUC64rsCUmt');
+SELECT * FROM vJopK;
+SELECT * FROM vJopK  WHERE name="sx7a";
+SELECT table_name FROM information_schema.tables WHERE table_schema="db";
+SELECT * FROM vJopK  WHERE id=6;

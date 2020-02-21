@@ -1,0 +1,15 @@
+use db;
+CREATE TABLE jiNTN (id smallint unsigned not null auto_increment, name varchar(32) not null, pwd varchar(32) not null, constraint pk_example primary key (id));
+SELECT * FROM example  WHERE id=5;
+SELECT * FROM example  WHERE name="CgWk3FJ7";
+SELECT * FROM example  WHERE name="KrKs4eKjimy3jwEw6PCTlUrz";
+SELECT * FROM example  WHERE id=0;
+SELECT * FROM example  WHERE name="elephant";
+INSERT INTO jiNTN (id,name,pwd) VALUES (null, 'AOEhw1VYIh5VCZfm6BfeWvCXh', 'wLVpLQE6NQBmroptd6zvhJAK');
+SELECT * FROM example  WHERE id=18;
+SELECT * FROM example  WHERE name="queue";
+SELECT * FROM example  WHERE id=5;
+INSERT INTO jiNTN (id,name,pwd) VALUES (null, 'VDXpnuGWvZf0Jokf8bVRff', '2PPmqGeeY3uPA8FT');
+SELECT * FROM jiNTN;
+SELECT * FROM jiNTN  WHERE id=1;
+SELECT table_name FROM information_schema.tables WHERE table_schema="db";

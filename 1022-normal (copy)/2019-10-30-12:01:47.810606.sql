@@ -1,0 +1,16 @@
+use db;
+CREATE TABLE TFCFG (id smallint unsigned not null auto_increment, name varchar(32) not null, pwd varchar(32) not null, constraint pk_example primary key (id));
+SELECT * FROM TFCFG;
+SELECT * FROM example  WHERE name="qCpNcvH";
+INSERT INTO TFCFG (id,name,pwd) VALUES (null, '5A5ra25ZhE', 'y2gUx2uz42');
+INSERT INTO TFCFG (id,name,pwd) VALUES (null, 'OA3IJwOP6u7fiHebrbANhw', 'NqrN6gCiRoW4WRT');
+INSERT INTO TFCFG (id,name,pwd) VALUES (null, 'e6', 'tNlt3ikgiq8VmFZcE2D');
+SELECT table_name FROM information_schema.tables WHERE table_schema="db";
+INSERT INTO TFCFG (id,name,pwd) VALUES (null, 'y', 'PXhFSR6559m2WKl6gp04KcZEeO');
+SELECT * FROM example  WHERE name="notebook";
+INSERT INTO TFCFG (id,name,pwd) VALUES (null, 'QpAwHpvKeVzuxbTqGh9BRNCSD0Tt', '5YBeSW7cqmqOEFr7');
+INSERT INTO TFCFG (id,name,pwd) VALUES (null, 'wZKsSOfRNBr5LrDBJFmu', 'pHX2JKncfzfOm7EDWA');
+SELECT * FROM example  WHERE id=6;
+SELECT * FROM TFCFG  WHERE name="ozJ6M6TuTW8gxvbjxGA1RVaY";
+SELECT * FROM TFCFG  WHERE name="LSexQ07UKPbE4F2wItID3WIdgJJwf";
+SELECT * FROM TFCFG  WHERE name="6MCk";

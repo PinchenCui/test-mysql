@@ -1,0 +1,16 @@
+use db;
+CREATE TABLE SByuu (id smallint unsigned not null auto_increment, name varchar(32) not null, pwd varchar(32) not null, constraint pk_example primary key (id));
+INSERT INTO SByuu (id,name,pwd) VALUES (null, 'jZw2v5HWVZBYEVXGR8VQyraBV', 'rBRSVwFpLj');
+SELECT * FROM example  WHERE name="x3edcvkvLPQQ";
+SELECT * FROM example  WHERE id=15;
+INSERT INTO SByuu (id,name,pwd) VALUES (null, 'pBvMuKbHuNnNQ3QfrxEirYAKq', '12yvaiQNYP');
+SELECT * FROM example  WHERE id=1;
+INSERT INTO SByuu (id,name,pwd) VALUES (null, '3c', 'L9n90J39UXIDWGI');
+SELECT * FROM example  WHERE id=5;
+SELECT * FROM example  WHERE id=17;
+INSERT INTO SByuu (id,name,pwd) VALUES (null, 'XDS', '91mC3DLt2Z2UeVHr9M');
+INSERT INTO SByuu (id,name,pwd) VALUES (null, 'uh9bHW4mhZR52aPpVOYD', 'UnBu0HYdWu8lMowr');
+INSERT INTO SByuu (id,name,pwd) VALUES (null, '', 'VQt3');
+SELECT * FROM SByuu;
+SELECT table_name FROM information_schema.tables WHERE table_schema="db";
+SELECT * FROM SByuu  WHERE name="46Y8q5PoAI03C1k49yk85vLITLk5U";

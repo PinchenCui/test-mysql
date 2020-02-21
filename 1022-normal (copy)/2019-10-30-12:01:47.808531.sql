@@ -1,0 +1,16 @@
+use db;
+CREATE TABLE soklA (id smallint unsigned not null auto_increment, name varchar(32) not null, pwd varchar(32) not null, constraint pk_example primary key (id));
+SELECT * FROM example  WHERE name="pinchen";
+SELECT * FROM example  WHERE id=6;
+SELECT * FROM example  WHERE name="TzCfwec0fhCbLF0PzGzJZXmuV3yk";
+SELECT * FROM example  WHERE name="7qUFpqmPi";
+SELECT * FROM example  WHERE name="gaga";
+SELECT * FROM example  WHERE name="iterations";
+SELECT * FROM example  WHERE name="cici1001";
+SELECT * FROM example  WHERE name="Dlb1ULMsbEyt43zH2gleuLisTq";
+SELECT * FROM soklA;
+SELECT * FROM soklA  WHERE id=0;
+SELECT * FROM soklA  WHERE id=0;
+SELECT * FROM soklA  WHERE name="5TRUlI0Hy5EC9trjR";
+SELECT table_name FROM information_schema.tables WHERE table_schema="db";
+SELECT * FROM soklA  WHERE id=0;

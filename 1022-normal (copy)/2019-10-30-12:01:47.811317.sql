@@ -1,0 +1,17 @@
+use db;
+CREATE TABLE sfJeQ (id smallint unsigned not null auto_increment, name varchar(32) not null, pwd varchar(32) not null, constraint pk_example primary key (id));
+SELECT * FROM example  WHERE name="4oAwjYRlB9vF1A72QgT";
+INSERT INTO sfJeQ (id,name,pwd) VALUES (null, '0mwdP1bbDQSNEgDnI3ngrO6JPxq4', '8Q3GTkgtT8Aa7Xb');
+INSERT INTO sfJeQ (id,name,pwd) VALUES (null, '2nLaUcTpmQtOjlV9ZI9NGZj8LF', 'RQU9Z9kZzdvp1QdBz');
+INSERT INTO sfJeQ (id,name,pwd) VALUES (null, 'L7', 'NvPmdmlJ2s7VL0icIdF');
+INSERT INTO sfJeQ (id,name,pwd) VALUES (null, 'px8jFjaVJ3QRgPZhqbLCeZFP', 'dsDSxBYnlJ4qDtLJxnJiE');
+SELECT * FROM example  WHERE name="HX";
+SELECT * FROM sfJeQ;
+INSERT INTO sfJeQ (id,name,pwd) VALUES (null, 'gSK', '4evxIL');
+SELECT * FROM example  WHERE name="duck233";
+SELECT table_name FROM information_schema.tables WHERE table_schema="db";
+SELECT * FROM example  WHERE name="4D";
+SELECT * FROM sfJeQ  WHERE id=3;
+SELECT * FROM sfJeQ  WHERE name="2PMxNmANuQnJjEyBMgeNhdiNHqq8";
+SELECT * FROM sfJeQ  WHERE name="tnGVB";
+SELECT * FROM sfJeQ  WHERE id=5;

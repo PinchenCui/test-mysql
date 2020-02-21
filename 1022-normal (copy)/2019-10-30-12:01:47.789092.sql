@@ -1,0 +1,14 @@
+use db;
+CREATE TABLE LFTPe (id smallint unsigned not null auto_increment, name varchar(32) not null, pwd varchar(32) not null, constraint pk_example primary key (id));
+INSERT INTO LFTPe (id,name,pwd) VALUES (null, 'eKBYJQqzM', 'AqEdlsgGjWMtS4SIcu');
+SELECT * FROM example  WHERE name="jacksonville";
+SELECT * FROM example  WHERE name="wickedbanana";
+SELECT * FROM example  WHERE name="queenofthrone";
+SELECT * FROM example  WHERE name="friend";
+INSERT INTO LFTPe (id,name,pwd) VALUES (null, 'o6bLyIpQv', 'SpPDnFHZ');
+SELECT * FROM example  WHERE id=0;
+INSERT INTO LFTPe (id,name,pwd) VALUES (null, 'nmibVavqTNL9D1XBjmxi', 'Ln4IkxrtbjQXfpauCTae');
+INSERT INTO LFTPe (id,name,pwd) VALUES (null, 'xumAhxCfPUeK7BLpQPeV5ECnS', 'OVcj57WlbIzaCktEy7xhv52Q');
+INSERT INTO LFTPe (id,name,pwd) VALUES (null, 'UNLgWWAp', 'XJyHFx4yWxwwwL8sL7XzWx');
+SELECT table_name FROM information_schema.tables WHERE table_schema="db";
+SELECT * FROM LFTPe;

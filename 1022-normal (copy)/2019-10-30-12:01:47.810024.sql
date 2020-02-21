@@ -1,0 +1,12 @@
+use db;
+CREATE TABLE wNTgk (id smallint unsigned not null auto_increment, name varchar(32) not null, pwd varchar(32) not null, constraint pk_example primary key (id));
+SELECT * FROM wNTgk;
+SELECT table_name FROM information_schema.tables WHERE table_schema="db";
+SELECT * FROM example  WHERE id=16;
+SELECT * FROM example  WHERE name="I5p154o6mfOHsadhAd6iicu";
+SELECT * FROM example  WHERE id=10;
+SELECT * FROM wNTgk  WHERE name="0cYeZ32wgA17";
+SELECT * FROM wNTgk  WHERE name="gjeKuiJ79LH";
+SELECT * FROM wNTgk  WHERE id=0;
+SELECT * FROM wNTgk  WHERE name="UZ";
+SELECT * FROM wNTgk  WHERE name="oZ6KeMgqXU5DzbJSAVrSK4YKCswk";

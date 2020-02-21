@@ -1,0 +1,17 @@
+use db;
+CREATE TABLE Tfxwa (id smallint unsigned not null auto_increment, name varchar(32) not null, pwd varchar(32) not null, constraint pk_example primary key (id));
+SELECT * FROM example  WHERE name="IAqC8WfLss6TUMrX2jd07";
+INSERT INTO Tfxwa (id,name,pwd) VALUES (null, 'yHHZpubxtV9XA', '6XpBRIGwES5Nova18HRGh');
+INSERT INTO Tfxwa (id,name,pwd) VALUES (null, '', 'hmaoxlxaEaqlTNkoLJ2nPe');
+INSERT INTO Tfxwa (id,name,pwd) VALUES (null, '00KTyS8TqyB4hQWCJZ', '84QWXGacDI');
+INSERT INTO Tfxwa (id,name,pwd) VALUES (null, 'Y', 'WZE');
+INSERT INTO Tfxwa (id,name,pwd) VALUES (null, 'Ve7yy8bYCh4LwoEupea3fNEk2', 'WOWHndyIxsjjz9CbkwxiZo5PwC');
+INSERT INTO Tfxwa (id,name,pwd) VALUES (null, 'zC65Po56JhnvKJagrb', 'CUhNxj');
+INSERT INTO Tfxwa (id,name,pwd) VALUES (null, 'sm99bJYuepCyy5pbGMBbiYmkK', '5XeufY52JruisP');
+INSERT INTO Tfxwa (id,name,pwd) VALUES (null, '90O56F52Dj2yuwGcc9B4yM0', 'PAoLVNNAWC2BIUXNp4ON4ih4');
+INSERT INTO Tfxwa (id,name,pwd) VALUES (null, 'DQiy36WmS1JngH6YGrgv4', 'XETW8viv');
+SELECT * FROM Tfxwa  WHERE name="bAUPFGdrzJDvY15I";
+SELECT * FROM Tfxwa  WHERE name="8RwAHfAamkpSxsqoC5lRuwb2Ta";
+SELECT * FROM Tfxwa  WHERE name="QmmGztpmxSPkS6Yr1";
+SELECT table_name FROM information_schema.tables WHERE table_schema="db";
+SELECT * FROM Tfxwa;

@@ -1,0 +1,13 @@
+use db;
+CREATE TABLE eUKRS (id smallint unsigned not null auto_increment, name varchar(32) not null, pwd varchar(32) not null, constraint pk_example primary key (id));
+SELECT * FROM example  WHERE name="lemonpie";
+SELECT * FROM example  WHERE name="CxG0otgYxa4";
+SELECT * FROM eUKRS;
+SELECT table_name FROM information_schema.tables WHERE table_schema="db";
+SELECT * FROM example  WHERE name="9PeVlvoaJlaKDuNv";
+SELECT * FROM example  WHERE id=9;
+SELECT * FROM example  WHERE id=20;
+SELECT * FROM eUKRS  WHERE name="Uxs2Zo2fiTGRVZylDJ7kewuW";
+SELECT * FROM eUKRS  WHERE name="H5O2pmFLrQHlj";
+SELECT * FROM eUKRS  WHERE name="eo5xP4";
+SELECT * FROM eUKRS  WHERE name="Zp5sDEoNvJYSHT2xfScZhA35Cxu";

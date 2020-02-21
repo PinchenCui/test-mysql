@@ -1,0 +1,17 @@
+use db;
+CREATE TABLE QctQY (id smallint unsigned not null auto_increment, name varchar(32) not null, pwd varchar(32) not null, constraint pk_example primary key (id));
+SELECT * FROM example  WHERE name="3";
+SELECT * FROM example  WHERE name="1lUH";
+SELECT * FROM QctQY;
+SELECT table_name FROM information_schema.tables WHERE table_schema="db";
+INSERT INTO QctQY (id,name,pwd) VALUES (null, 'w3LNHgMGa', '5');
+SELECT * FROM example  WHERE name="WjCkAIEn2JMGW";
+SELECT * FROM example  WHERE id=9;
+SELECT * FROM QctQY  WHERE id=1;
+SELECT * FROM QctQY  WHERE name="9yfTpmEhgZGJMfdqnBQl";
+SELECT * FROM QctQY  WHERE id=1;
+SELECT * FROM QctQY  WHERE id=1;
+SELECT * FROM QctQY  WHERE name="1W";
+SELECT * FROM QctQY  WHERE id=1;
+SELECT * FROM QctQY  WHERE name="WIjcSujGoeM";
+SELECT * FROM QctQY  WHERE name="G3xutADYbAfZQYBxjxip8";

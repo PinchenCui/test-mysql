@@ -1,0 +1,12 @@
+use db;
+CREATE TABLE Ajhfe (id smallint unsigned not null auto_increment, name varchar(32) not null, pwd varchar(32) not null, constraint pk_example primary key (id));
+SELECT * FROM example  WHERE id=9;
+INSERT INTO Ajhfe (id,name,pwd) VALUES (null, 'TuTHsJ', 'LVb4H4OXMnqdJ');
+INSERT INTO Ajhfe (id,name,pwd) VALUES (null, 'Pq62tYG', 'WWn4RPrmfnns3xKgz6yhqNde');
+SELECT * FROM Ajhfe;
+SELECT * FROM example  WHERE name="bTr";
+INSERT INTO Ajhfe (id,name,pwd) VALUES (null, 'xHqwc7JW3xXHG9iyu6Qu7S2s1xb', 'befUEu1OGUFUvAL4SxzNVt7');
+SELECT table_name FROM information_schema.tables WHERE table_schema="db";
+SELECT * FROM example  WHERE name="elephant";
+SELECT * FROM example  WHERE id=11;
+SELECT * FROM Ajhfe  WHERE id=1;

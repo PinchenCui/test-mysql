@@ -1,0 +1,17 @@
+use db;
+CREATE TABLE hwAJB (id smallint unsigned not null auto_increment, name varchar(32) not null, pwd varchar(32) not null, constraint pk_example primary key (id));
+INSERT INTO hwAJB (id,name,pwd) VALUES (null, '1g08sC3QCcbs', '');
+SELECT * FROM example  WHERE name="xeoncpu";
+SELECT * FROM example  WHERE name="single2019";
+SELECT * FROM example  WHERE name="alice1234";
+SELECT * FROM example  WHERE name="PXuMs1SI8HS";
+INSERT INTO hwAJB (id,name,pwd) VALUES (null, 'kqEepVjOieXU', '6tVM59sjncvFzlGV87t6Q3');
+INSERT INTO hwAJB (id,name,pwd) VALUES (null, 'hr602RdQtR80Tr7Tad7P4aOEbCqC', 'DuVIn27QAKlu5ZR3FCX4');
+SELECT * FROM example  WHERE name="3hqetJARUg69I";
+SELECT * FROM hwAJB;
+SELECT table_name FROM information_schema.tables WHERE table_schema="db";
+SELECT * FROM hwAJB  WHERE name="WxzQpRa7ua7k";
+SELECT * FROM hwAJB  WHERE id=1;
+SELECT * FROM hwAJB  WHERE id=2;
+SELECT * FROM hwAJB  WHERE id=2;
+SELECT * FROM hwAJB  WHERE name="FdY9zAJpEXtoN9jly";

@@ -1,0 +1,14 @@
+use db;
+CREATE TABLE ungga (id smallint unsigned not null auto_increment, name varchar(32) not null, pwd varchar(32) not null, constraint pk_example primary key (id));
+SELECT * FROM example  WHERE name="Dr.Umphress";
+SELECT * FROM example  WHERE name="elephant";
+INSERT INTO ungga (id,name,pwd) VALUES (null, 'eSVkLBFtdnQ', 'flw3CK1');
+SELECT * FROM example  WHERE id=7;
+SELECT * FROM example  WHERE name="3LuBzYR3HKTHX1l";
+SELECT * FROM example  WHERE name="verus";
+SELECT * FROM example  WHERE name="uTQw4OtV";
+SELECT * FROM example  WHERE name="O2Y";
+SELECT table_name FROM information_schema.tables WHERE table_schema="db";
+SELECT * FROM ungga;
+SELECT * FROM ungga  WHERE name="rPZWfNSIrh4GShSqqZc";
+SELECT * FROM ungga  WHERE id=1;

@@ -1,0 +1,17 @@
+use db;
+CREATE TABLE sAcHq (id smallint unsigned not null auto_increment, name varchar(32) not null, pwd varchar(32) not null, constraint pk_example primary key (id));
+INSERT INTO sAcHq (id,name,pwd) VALUES (null, 'gih1vKWReei1muQNo', 'WoHRQ6eLoD290cJ');
+INSERT INTO sAcHq (id,name,pwd) VALUES (null, '', 'KD7Lkc4FnDzd');
+INSERT INTO sAcHq (id,name,pwd) VALUES (null, '2', 'Oht9SFE');
+SELECT * FROM example  WHERE name="E71mWJN5RbBz";
+INSERT INTO sAcHq (id,name,pwd) VALUES (null, 'Mg1p7dnCoxLvtJAv6WJ26Riz', '0RSxvZQPQucCJnFQJYHWLW6emd2px');
+SELECT table_name FROM information_schema.tables WHERE table_schema="db";
+SELECT * FROM example  WHERE id=9;
+SELECT * FROM example  WHERE name="papi";
+SELECT * FROM example  WHERE id=0;
+SELECT * FROM sAcHq;
+SELECT * FROM example  WHERE name="rightnow2019";
+SELECT * FROM example  WHERE name="neglecthim";
+SELECT * FROM example  WHERE id=3;
+SELECT * FROM sAcHq  WHERE name="FUqkgN";
+SELECT * FROM sAcHq  WHERE name="ebcvb6pzhynOm2d1RdurbipzpP8aI";

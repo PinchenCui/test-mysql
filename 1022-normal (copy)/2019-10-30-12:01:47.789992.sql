@@ -1,0 +1,13 @@
+use db;
+CREATE TABLE PQUSO (id smallint unsigned not null auto_increment, name varchar(32) not null, pwd varchar(32) not null, constraint pk_example primary key (id));
+SELECT * FROM PQUSO;
+INSERT INTO PQUSO (id,name,pwd) VALUES (null, 'CmwnYpv3GxQZ7PfiIjEPLmEl', 'XkwjtnCoibO');
+INSERT INTO PQUSO (id,name,pwd) VALUES (null, 'AXzWyfg3ont2EW9BJdUtIquM', '2kip3LxOyrUK');
+INSERT INTO PQUSO (id,name,pwd) VALUES (null, 'ON', '2Rgg90WeHmKaYU6uC');
+SELECT * FROM example  WHERE id=13;
+SELECT * FROM example  WHERE name="imDI";
+SELECT table_name FROM information_schema.tables WHERE table_schema="db";
+INSERT INTO PQUSO (id,name,pwd) VALUES (null, 'tRpyjXmnl41OkfoAGAZZHw0dPRSc', 'QG53c8NDBXuJP3y');
+SELECT * FROM example  WHERE id=9;
+INSERT INTO PQUSO (id,name,pwd) VALUES (null, 'vlorxE2FWFoucum9D', '14goP9A');
+SELECT * FROM PQUSO  WHERE name="00BCwF2aVr1h332gflv3";

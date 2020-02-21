@@ -1,0 +1,18 @@
+use db;
+CREATE TABLE oSuZd (id smallint unsigned not null auto_increment, name varchar(32) not null, pwd varchar(32) not null, constraint pk_example primary key (id));
+INSERT INTO oSuZd (id,name,pwd) VALUES (null, 'TZYWr9qOpaavlL3kIc8A509Dl7z7v', 't3eNc3LC');
+SELECT * FROM example  WHERE id=19;
+SELECT * FROM example  WHERE id=20;
+INSERT INTO oSuZd (id,name,pwd) VALUES (null, 'AZF', 'nhwKH');
+INSERT INTO oSuZd (id,name,pwd) VALUES (null, 'LN02rGFnrC1', 'da7yJFDZ2wXSaUxJfy5Z7');
+INSERT INTO oSuZd (id,name,pwd) VALUES (null, 'MF', 'XJttuX2xDT1m2sjDOESBQH');
+INSERT INTO oSuZd (id,name,pwd) VALUES (null, '4Hr4s7XrdxgjZianqc', 'TMIpMqBy');
+SELECT * FROM example  WHERE name="L9MS41cH";
+INSERT INTO oSuZd (id,name,pwd) VALUES (null, 'IfxEhi9nwTdjzBBoEuydZc', 'qSkdR');
+SELECT * FROM example  WHERE id=11;
+SELECT * FROM example  WHERE name="yuhateme";
+SELECT * FROM example  WHERE name="duck233";
+SELECT table_name FROM information_schema.tables WHERE table_schema="db";
+SELECT * FROM oSuZd  WHERE id=5;
+SELECT * FROM oSuZd;
+SELECT * FROM oSuZd  WHERE name="8tX7";
