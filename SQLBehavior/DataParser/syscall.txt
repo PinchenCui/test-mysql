@@ -1,0 +1,155 @@
+{
+"Sender ID": 1,
+"VM ID": "d1",
+"Vector":{
+	"Source": "Sysdig", 
+	"Type": "Syscall", 
+},
+"Timestamp": "", "Data": "
+1228 16:49:06.593671359 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < select res=0, 
+1229 16:49:06.593719580 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > write fd=1(<f>/dev/pts/0) size=19, 
+1230 16:49:06.593753098 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < write res=19 data=This is round 1635, 
+1231 16:49:06.593771833 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > open 
+1235 16:49:06.593795366 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < open fd=4(<f>/Data) name=Data(/Data) flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+1237 16:49:06.593797858 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > fstat fd=4(<f>/Data) 
+1238 16:49:06.593801500 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < fstat res=0 
+1240 16:49:06.593806085 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > ioctl fd=4(<f>/Data) request=5401 argument=7FFD9F4591E0 
+1242 16:49:06.593807445 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < ioctl res=-25(ENOTTY) 
+1245 16:49:06.593815993 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > lseek fd=4(<f>/Data) offset=0 whence=1(SEEK_CUR) 
+1246 16:49:06.593816859 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < lseek res=0 
+1248 16:49:06.593821402 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > ioctl fd=4(<f>/Data) request=5401 argument=7FFD9F459190 
+1249 16:49:06.593821632 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < ioctl res=-25(ENOTTY) 
+1256 16:49:06.593851765 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > lseek fd=4(<f>/Data) offset=0 whence=1(SEEK_CUR) 
+1257 16:49:06.593852155 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < lseek res=0 
+1265 16:49:06.593876934 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > close fd=3(<f>/Data) 
+1266 16:49:06.593879035 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < close res=0 
+1267 16:49:06.593893001 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > read fd=4(<f>/Data) size=8192 
+1268 16:49:06.593896870 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < read res=5 data=
+2018
+ 
+1269 16:49:06.593923783 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > write fd=1(<f>/dev/pts/0) size=12 
+1270 16:49:06.593948121 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < write res=12 data=
+Sum is 3654
+ 
+1271 16:49:06.593955485 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > select 
+1272 16:49:06.593960372 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > switch next=1873(dockerd) pgft_maj=0 pgft_min=987 vm_size=23244 vm_rss=7876 vm_swap=0 
+7987 16:49:07.595143972 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < select res=0 
+7988 16:49:07.595194221 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > write fd=1(<f>/dev/pts/0) size=19 
+7989 16:49:07.595215449 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < write res=19 data=
+This is round 1636
+ 
+7991 16:49:07.595235035 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > open 
+7995 16:49:07.595258812 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < open fd=3(<f>/Data) name=Data(/Data) flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+7997 16:49:07.595261038 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > fstat fd=3(<f>/Data) 
+7999 16:49:07.595264929 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < fstat res=0 
+8000 16:49:07.595269923 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > ioctl fd=3(<f>/Data) request=5401 argument=7FFD9F4591E0 
+8002 16:49:07.595270649 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < ioctl res=-25(ENOTTY) 
+8005 16:49:07.595279204 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > lseek fd=3(<f>/Data) offset=0 whence=1(SEEK_CUR) 
+8006 16:49:07.595280102 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < lseek res=0 
+8008 16:49:07.595284979 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > ioctl fd=3(<f>/Data) request=5401 argument=7FFD9F459190 
+8009 16:49:07.595285243 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < ioctl res=-25(ENOTTY) 
+8017 16:49:07.595314851 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > lseek fd=3(<f>/Data) offset=0 whence=1(SEEK_CUR) 
+8018 16:49:07.595315321 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < lseek res=0 
+8025 16:49:07.595340711 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > close fd=4(<f>/Data) 
+8026 16:49:07.595342684 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < close res=0 
+8031 16:49:07.595356574 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > read fd=3(<f>/Data) size=8192 
+8033 16:49:07.595360920 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < read res=5 data=
+2018
+ 
+8042 16:49:07.595380973 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > write fd=1(<f>/dev/pts/0) size=12 
+8044 16:49:07.595385767 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < write res=12 data=
+Sum is 3655
+ 
+8046 16:49:07.595390075 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > select 
+8050 16:49:07.595394344 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > switch next=9764 pgft_maj=0 pgft_min=987 vm_size=23244 vm_rss=7876 vm_swap=0 
+13038 16:49:08.597160469 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < select res=0 
+13039 16:49:08.597208883 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > write fd=1(<f>/dev/pts/0) size=19 
+13040 16:49:08.597230388 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < write res=19 data=
+This is round 1637
+ 
+13041 16:49:08.597251609 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > open 
+13045 16:49:08.597274873 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < open fd=4(<f>/Data) name=Data(/Data) flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+13047 16:49:08.597277066 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > fstat fd=4(<f>/Data) 
+13048 16:49:08.597280694 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < fstat res=0 
+13050 16:49:08.597286270 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > ioctl fd=4(<f>/Data) request=5401 argument=7FFD9F4591E0 
+13052 16:49:08.597287577 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < ioctl res=-25(ENOTTY) 
+13055 16:49:08.597296693 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > lseek fd=4(<f>/Data) offset=0 whence=1(SEEK_CUR) 
+13056 16:49:08.597297546 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < lseek res=0 
+13058 16:49:08.597302148 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > ioctl fd=4(<f>/Data) request=5401 argument=7FFD9F459190 
+13059 16:49:08.597302452 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < ioctl res=-25(ENOTTY) 
+13066 16:49:08.597332525 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > lseek fd=4(<f>/Data) offset=0 whence=1(SEEK_CUR) 
+13068 16:49:08.597332977 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < lseek res=0 
+13076 16:49:08.597361636 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > close fd=3(<f>/Data) 
+13077 16:49:08.597363592 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < close res=0 
+13081 16:49:08.597379714 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > read fd=4(<f>/Data) size=8192 
+13083 16:49:08.597384033 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < read res=5 data=
+2018
+ 
+13094 16:49:08.597405291 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > write fd=1(<f>/dev/pts/0) size=12 
+13096 16:49:08.597408211 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < write res=12 data=
+Sum is 3656
+ 
+13097 16:49:08.597412874 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > select 
+13101 16:49:08.597425948 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > switch next=1885(dockerd) pgft_maj=0 pgft_min=987 vm_size=23244 vm_rss=7876 vm_swap=0 
+20080 16:49:09.598853529 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < select res=0 
+20084 16:49:09.598913690 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > write fd=1(<f>/dev/pts/0) size=19 
+20085 16:49:09.598937329 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < write res=19 data=
+This is round 1638
+ 
+20087 16:49:09.598958692 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > open 
+20092 16:49:09.598981648 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < open fd=3(<f>/Data) name=Data(/Data) flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+20093 16:49:09.598983825 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > fstat fd=3(<f>/Data) 
+20095 16:49:09.598987852 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < fstat res=0 
+20097 16:49:09.598993665 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > ioctl fd=3(<f>/Data) request=5401 argument=7FFD9F4591E0 
+20098 16:49:09.598994546 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < ioctl res=-25(ENOTTY) 
+20102 16:49:09.599004318 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > lseek fd=3(<f>/Data) offset=0 whence=1(SEEK_CUR) 
+20103 16:49:09.599005206 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < lseek res=0 
+20105 16:49:09.599010285 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > ioctl fd=3(<f>/Data) request=5401 argument=7FFD9F459190 
+20106 16:49:09.599010551 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < ioctl res=-25(ENOTTY) 
+20115 16:49:09.599041845 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > lseek fd=3(<f>/Data) offset=0 whence=1(SEEK_CUR) 
+20116 16:49:09.599042373 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < lseek res=0 
+20123 16:49:09.599070994 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > close fd=4(<f>/Data) 
+20125 16:49:09.599073038 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < close res=0 
+20130 16:49:09.599088481 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > read fd=3(<f>/Data) size=8192 
+20131 16:49:09.599092751 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < read res=5 data=
+2018
+ 
+20135 16:49:09.599114558 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > write fd=1(<f>/dev/pts/0) size=12 
+20141 16:49:09.599121711 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > switch next=277 pgft_maj=0 pgft_min=987 vm_size=23244 vm_rss=7876 vm_swap=0 
+20152 16:49:09.599131551 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < write res=12 data=
+Sum is 3657
+ 
+20155 16:49:09.599132520 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > switch next=277 pgft_maj=0 pgft_min=987 vm_size=23244 vm_rss=7876 vm_swap=0 
+20163 16:49:09.599139309 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > select 
+20166 16:49:09.599142548 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > switch next=9340(docker-containe) pgft_maj=0 pgft_min=987 vm_size=23244 vm_rss=7876 vm_swap=0 
+27781 16:49:10.601231456 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < select res=0 
+27784 16:49:10.601312098 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > write fd=1(<f>/dev/pts/0) size=19 
+27785 16:49:10.601330598 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < write res=19 data=
+This is round 1639
+ 
+27787 16:49:10.601346525 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > open 
+27790 16:49:10.601367253 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < open fd=4(<f>/Data) name=Data(/Data) flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+27791 16:49:10.601369371 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > fstat fd=4(<f>/Data) 
+27792 16:49:10.601371954 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < fstat res=0 
+27793 16:49:10.601376373 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > ioctl fd=4(<f>/Data) request=5401 argument=7FFD9F4591E0 
+27794 16:49:10.601377667 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < ioctl res=-25(ENOTTY) 
+27795 16:49:10.601385973 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > lseek fd=4(<f>/Data) offset=0 whence=1(SEEK_CUR) 
+27796 16:49:10.601386916 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < lseek res=0 
+27797 16:49:10.601401640 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > ioctl fd=4(<f>/Data) request=5401 argument=7FFD9F459190 
+27798 16:49:10.601401934 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < ioctl res=-25(ENOTTY) 
+27809 16:49:10.601431613 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > lseek fd=4(<f>/Data) offset=0 whence=1(SEEK_CUR) 
+27810 16:49:10.601432051 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < lseek res=0 
+27841 16:49:10.601457625 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > close fd=3(<f>/Data) 
+27842 16:49:10.601459780 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < close res=0 
+27852 16:49:10.601473558 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > read fd=4(<f>/Data) size=8192 
+27855 16:49:10.601477153 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < read res=5 data=
+2018
+ 
+27858 16:49:10.601495261 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > write fd=1(<f>/dev/pts/0) size=12 
+27859 16:49:10.601497194 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) < write res=12 data=
+Sum is 3658
+ 
+27861 16:49:10.601500922 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > select 
+27863 16:49:10.601505038 3 optimistic_ptolemy (f7b5fc050061) python (9542:37) > switch next=277 pgft_maj=0 pgft_min=987 vm_size=23244 vm_rss=7876 vm_swap=0 "
+}
+
