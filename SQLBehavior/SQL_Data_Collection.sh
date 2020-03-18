@@ -2,7 +2,7 @@ echo "ContainerName= $1, MonitoringTime= $2s, filename= $3.$4.txt, SampleCount= 
 
 collect()
 {
-cat <<EOF > /home/vm-0/SQL-Dataset/$3.$4.txt
+cat <<EOF > ~/SQL-Dataset/$3.$4.txt
 "Sender ID": 1,
 "VM ID": $1,
 "Vector":{
@@ -10,13 +10,13 @@ cat <<EOF > /home/vm-0/SQL-Dataset/$3.$4.txt
 	"Type": "Syscall",
 }, 
 EOF
-echo "\"Timestamp": "", "Data": "\"" >> /home/vm-0/SQL-Dataset/$3.$4.txt
-sudo sysdig -M $2 -pc container.name=$1 >> /home/vm-0/SQL-Dataset/$3.$4.txt &
+echo "\"Timestamp": "", "Data": "\"" >> ~/SQL-Dataset/$3.$4.txt
+sudo sysdig -M $2 -pc container.name=$1 >> ~/SQL-Dataset/$3.$4.txt &
 echo "start collection..."
 wait
-echo "\""} >>  /home/vm-0/SQL-Dataset/$3.$4.txt
+echo "\""} >>  ~/SQL-Dataset/$3.$4.txt
 
-cd  /home/vm-0/Downloads/SQLBehavior/DataParser/
+cd  ~/Downloads/SQLBehavior/DataParser/
 echo "Staring Parsing Collected Data..."
 #sudo python parser.py "/home/vm-0/SQL-Dataset/$3.$4.txt"
 echo "Parsing Skipped!"
